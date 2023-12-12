@@ -3,3 +3,30 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+.blue-bg {
+  background-color: #0020f4;
+  padding: 80px 240px 200px 240px;
+  position: relative;
+}
+.blue-bg h2 {
+  display: inline-block;
+  margin: 0;
+  color: white;
+}
+.dots {
+  position: absolute;
+  display: inline-block;
+  right: 240px;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.white {
+  background-color: white;
+}
+.gray {
+  background-color: gray;
+}
