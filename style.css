@@ -6,7 +6,7 @@ body {
 .blue-bg {
   background-color: #0020f4;
   box-sizing: border-box;
-  padding: 80px 240px 200px 240px;
+  padding: 80px 0px 200px 240px;
   position: absolute;
   width: 100%;
 }
@@ -40,30 +40,26 @@ body {
   padding: 200px;
   width: 100%;
   display: block;
+  position: relative;
 }
 
 .building {
+  position: absolute;
   display: inline-block;
-  top: 160px;
+  top: 50px;
   width: 360px;
-  right: 0;
   position: relative;
+  margin-right: 10px;
 }
 
-.building-19 {
-  display: inline-block;
-  top: 100px;
-  width: 360px;
-  right: 0;
-  position: relative;
-}
 .building img {
   width: 100%;
 }
-.building-19 img {
-  width: 100%;
+#up {
+  position: relative;
+  top: 0;
+  font-weight: bold;
 }
-
 .text-content {
   position: absolute;
   padding: 0px 15px 0px;
@@ -73,7 +69,4 @@ body {
   padding: 20px;
   backdrop-filter: blur(10px);
   border-radius: 20px;
-}
-.building-19 p {
-  font-weight: bold;
 }
