@@ -5,8 +5,10 @@ body {
 }
 .blue-bg {
   background-color: #0020f4;
+  box-sizing: border-box;
   padding: 80px 240px 200px 240px;
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 .blue-bg h2 {
   display: inline-block;
@@ -14,9 +16,11 @@ body {
   color: white;
 }
 .dots {
+  box-sizing: border-box;
   position: absolute;
-  display: inline-block;
-  right: 240px;
+  display: inline;
+  top: 30%;
+  right: 20%;
 }
 .dot {
   display: inline-block;
@@ -29,4 +33,47 @@ body {
 }
 .gray {
   background-color: gray;
+}
+
+.container {
+  box-sizing: border-box;
+  padding: 200px;
+  width: 100%;
+  display: block;
+}
+
+.building {
+  display: inline-block;
+  top: 160px;
+  width: 360px;
+  right: 0;
+  position: relative;
+}
+
+.building-19 {
+  display: inline-block;
+  top: 100px;
+  width: 360px;
+  right: 0;
+  position: relative;
+}
+.building img {
+  width: 100%;
+}
+.building-19 img {
+  width: 100%;
+}
+
+.text-content {
+  position: absolute;
+  padding: 0px 15px 0px;
+  bottom: 0;
+}
+.text-content p {
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+.building-19 p {
+  font-weight: bold;
 }
